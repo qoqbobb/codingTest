@@ -42,7 +42,6 @@ public class Level1_videoPlay {
         }
         String answer = "";
         answer = String.format("%02d", pos_time/60) + ":" + String.format("%02d", pos_time%60);
-
         return answer;
     }
 
