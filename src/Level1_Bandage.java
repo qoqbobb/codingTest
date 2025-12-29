@@ -40,6 +40,7 @@ public class Level1_Bandage {
 
 
             if(continueTime == bandage[0]){
+
                 health += bandage[2];
                 continueTime = 0;
             };
